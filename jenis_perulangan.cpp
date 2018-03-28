@@ -9,25 +9,26 @@ int main (){
 		if(sum>=20){
 			break;
 		}
-	cout<<a;
-	cout<<sum;
-	}
+	cout<<a<<endl;
+	cout<<sum<<endl<<endl;	}
 ////////////////////////////////////////////////
 	while(a<10){
+		cout<<"bilangan= "<<a<<endl;
+		cout<<"jumlah= "<<sum<<endl;
 		a++;
 		sum+=a;
 		if(sum>=20){
 			break;
 		}
-	cout<<"bilangan= "<<a<<endl;
-	cout<<"jumlah= "<<sum<<endl;	
+		
 	}
 ////////////////////////////////////////////////
 	do{
-		a++;
-		sum+=a;
 		cout<<a<<endl;
 		cout<<sum<<endl;
+		a++;
+		sum+=a;
+		
 		if(sum>=20){break;}
 	}while(a<10);	
 
